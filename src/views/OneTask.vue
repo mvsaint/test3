@@ -7,7 +7,7 @@
     <div>
       <button class="btn" @click="changeStatus('pending')">Взять в работу</button>
       <button class="btn primary" @click="changeStatus('done')">Завершить</button>
-      <button class="btn danger" @click="changeStatus('cancel')">Отменить</button>
+      <button class="btn danger" @click="changeStatus('cancelled')">Отменить</button>
     </div>
   </div>
   <h3 class="text-white center" v-else>
